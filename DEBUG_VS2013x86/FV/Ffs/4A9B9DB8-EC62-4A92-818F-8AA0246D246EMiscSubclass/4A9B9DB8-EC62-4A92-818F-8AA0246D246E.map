@@ -1,0 +1,253 @@
+ MiscSubclass
+
+ Timestamp is 5a2f2e07 (Tue Dec 12 08:16:55 2017)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000011dH .text                   CODE
+ 0001:0000011d 00002719H .text$mn                CODE
+ 0002:00000000 00000ecfH .rdata                  DATA
+ 0002:00000ed0 000000a8H .rdata$debug            DATA
+ 0003:00000000 000009f0H .data                   DATA
+ 0003:000009f0 00000060H .bss                    DATA
+ 0004:00000000 00000054H .edata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0001:00000000       _InternalMemCopyMem        00011000     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:00000070       _InternalMemZeroMem        00011070     BaseMemoryLibOptDxe:ZeroMem.obj
+ 0001:00000090       _InternalMemSetMem         00011090     BaseMemoryLibOptDxe:SetMem.obj
+ 0001:000000c0       _InternalMemSetMem32       000110c0     BaseMemoryLibOptDxe:SetMem32.obj
+ 0001:000000e0       _InternalMemSetMem64       000110e0     BaseMemoryLibOptDxe:SetMem64.obj
+ 0001:00000100       _InternalMemCompareMem     00011100     BaseMemoryLibOptDxe:CompareMem.obj
+ 0001:0000011d       __ModuleEntryPoint         0001111d f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000147       _ProcessLibraryConstructorList 00011147 f   MiscSubclass:AutoGen.obj
+ 0001:000002f1       _ProcessLibraryDestructorList 000112f1 f   MiscSubclass:AutoGen.obj
+ 0001:00000336       _LogMemorySmbiosRecord     00011336 f   MiscSubclass:MiscSubclassDriverEntryPoint.obj
+ 0001:00000453       _MiscSubclassDriverEntryPoint 00011453 f   MiscSubclass:MiscSubclassDriverEntryPoint.obj
+ 0001:00000508       _AddSmbiosRecord           00011508 f   MiscSubclass:MiscSubclassDriverEntryPoint.obj
+ 0001:0000051e       _MiscChassisManufacturerFunction 0001151e f   MiscSubclass:MiscChassisManufacturerFunction.obj
+ 0001:000006e9       _MiscBaseBoardManufacturerFunction 000116e9 f   MiscSubclass:MiscBaseBoardManufacturerFunction.obj
+ 0001:000008cd       _SystemLanguageStringFunction 000118cd f   MiscSubclass:MiscSystemLanguageStringFunction.obj
+ 0001:0000094f       _MiscSystemSlotDesignationFunction 0001194f f   MiscSubclass:MiscSystemSlotDesignationFunction.obj
+ 0001:00000a04       _MiscResetCapabilitiesFunction 00011a04 f   MiscSubclass:MiscResetCapabilitiesFunction.obj
+ 0001:00000a72       _SystemOptionStringFunction 00011a72 f   MiscSubclass:MiscSystemOptionStringFunction.obj
+ 0001:00000aee       _MiscBiosVendorFunction    00011aee f   MiscSubclass:MiscBiosVendorFunction.obj
+ 0001:00000c58       _BootInformationStatusFunction 00011c58 f   MiscSubclass:MiscBootInformationFunction.obj
+ 0001:00000ca6       _CurrentLanguageMatch      00011ca6 f   MiscSubclass:MiscNumberOfInstallableLanguagesFunction.obj
+ 0001:00000d82       _GetNextLanguage           00011d82 f   MiscSubclass:MiscNumberOfInstallableLanguagesFunction.obj
+ 0001:00000e06       _GetSupportedLanguageNumber 00011e06 f   MiscSubclass:MiscNumberOfInstallableLanguagesFunction.obj
+ 0001:00000e68       _NumberOfInstallableLanguagesFunction 00011e68 f   MiscSubclass:MiscNumberOfInstallableLanguagesFunction.obj
+ 0001:00000f01       _MiscSystemManufacturerFunction 00011f01 f   MiscSubclass:MiscSystemManufacturerFunction.obj
+ 0001:00001050       _MiscPortInternalConnectorDesignatorFunction 00012050 f   MiscSubclass:MiscPortInternalConnectorDesignatorFunction.obj
+ 0001:0000116e       _OemStringFunction         0001216e f   MiscSubclass:MiscOemStringFunction.obj
+ 0001:000011ea       _GetPcdProtocol            000121ea f   DxePcdLib:DxePcdLib.obj
+ 0001:00001258       _RShiftU64                 00012258 f   BaseLib:RShiftU64.obj
+ 0001:0000127f       _StrLen                    0001227f f   BaseLib:String.obj
+ 0001:000012e7       _StrSize                   000122e7 f   BaseLib:String.obj
+ 0001:000012f4       _UnicodeStrToAsciiStr      000122f4 f   BaseLib:String.obj
+ 0001:000013cb       _AsciiStrCpy               000123cb f   BaseLib:String.obj
+ 0001:00001445       _AsciiStrLen               00012445 f   BaseLib:String.obj
+ 0001:00001490       _AsciiStrnCmp              00012490 f   BaseLib:String.obj
+ 0001:00001520       _LShiftU64                 00012520 f   BaseLib:LShiftU64.obj
+ 0001:00001547       _InternalSafeStringIsOverlap 00012547 f   BaseLib:SafeString.obj
+ 0001:0000156d       _StrnLenS                  0001256d f   BaseLib:SafeString.obj
+ 0001:000015b2       _StrDecimalToUint64S       000125b2 f   BaseLib:SafeString.obj
+ 0001:000016f4       _AsciiStrnLenS             000126f4 f   BaseLib:SafeString.obj
+ 0001:0000171b       _AsciiStrCpyS              0001271b f   BaseLib:SafeString.obj
+ 0001:000017dc       _DebugPrint                000127dc f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00001933       _DebugAssert               00012933 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00001a43       _CopyMem                   00012a43 f   BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0001:00001aa4       _ZeroMem                   00012aa4 f   BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0001:00001ae9       _CopyGuid                  00012ae9 f   BaseMemoryLibOptDxe:MemLibGuid.obj
+ 0001:00001b19       _CompareGuid               00012b19 f   BaseMemoryLibOptDxe:MemLibGuid.obj
+ 0001:00001b78       _InternalAllocatePool      00012b78 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001b9d       _InternalAllocateZeroPool  00012b9d f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001bb9       _FreePool                  00012bb9 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001bef       _EfiGetSystemConfigurationTable 00012bef f   UefiLib:UefiLib.obj
+ 0001:00001c49       _GetVariable2              00012c49 f   UefiLib:UefiLib.obj
+ 0001:00001cf3       _GetBestLanguage           00012cf3 f   UefiLib:UefiLib.obj
+ 0001:00001e02       _GetHobList                00012e02 f   DxeHobLib:HobLib.obj
+ 0001:00001e5c       _GetNextHob                00012e5c f   DxeHobLib:HobLib.obj
+ 0001:00001e99       _GetDebugPrintErrorLevel   00012e99 f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:00001f8f       _GetDebugMask              00012f8f f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:00001fa7       _SetDebugMask              00012fa7 f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:00001fb4       _UefiHiiServicesLibConstructor 00012fb4 f   UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0001:000020a1       _InternalHiiExtractGuidFromHiiHandle 000130a1 f   UefiHiiLib:HiiLib.obj
+ 0001:0000216c       _HiiAddPackages            0001316c f   UefiHiiLib:HiiLib.obj
+ 0001:00002252       _HiiGetHiiHandles          00013252 f   UefiHiiLib:HiiLib.obj
+ 0001:00002335       _HiiSetString              00013335 f   UefiHiiLib:HiiString.obj
+ 0001:0000243a       _HiiGetPackageString       0001343a f   UefiHiiLib:HiiString.obj
+ 0001:00002460       _HiiGetString              00013460 f   UefiHiiLib:HiiString.obj
+ 0001:00002579       _HiiGetSupportedLanguages  00013579 f   UefiHiiLib:HiiLanguage.obj
+ 0001:000025f4       _InternalGetReportStatusCode 000135f4 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:0000262d       _InternalReportStatusCode  0001362d f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00002674       _ReportStatusCodeEx        00013674 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:000027c8       _ReadUnaligned32           000137c8 f   BaseLib:Unaligned.obj
+ 0001:000027e8       _ReadUnaligned64           000137e8 f   BaseLib:Unaligned.obj
+ 0001:0000280b       _WriteUnaligned64          0001380b f   BaseLib:Unaligned.obj
+ 0002:00000038       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ?6@ 00014038     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:0000005c       ??_C@_0BE@DCHLEIGN@?$CBEFI_ERROR?5?$CIStatus?$CJ?$AA@ 0001405c     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000070       ??_C@_0N@FCBKKBNJ@MiscSubclass?$AA@ 00014070     MiscSubclass:AutoGen.obj
+ 0002:00000080       ??_C@_0HE@NNHCPJMM@c?3?2edk2?2Build?2NT32IA32?2DEBUG_VS2@ 00014080     MiscSubclass:AutoGen.obj
+ 0002:000000f4       __gPcd_FixedAtBuild_PcdUefiVariableDefaultPlatformLang 000140f4     MiscSubclass:AutoGen.obj
+ 0002:000000fc       __gPcd_FixedAtBuild_PcdFirmwareVersionString 000140fc     MiscSubclass:AutoGen.obj
+ 0002:00000100       __gPcd_FixedAtBuild_PcdFirmwareReleaseDateString 00014100     MiscSubclass:AutoGen.obj
+ 0002:00000108       ??_C@_0EH@KLAGNCMB@c?3?2edk2?2Nt32Pkg?2MiscSubClassPlat@ 00014108     MiscSubclass:MiscSubclassDriverEntryPoint.obj
+ 0002:00000150       ??_C@_0CH@GHLBLNEP@Could?5not?5locate?5SMBIOS?5protocol@ 00014150     MiscSubclass:MiscSubclassDriverEntryPoint.obj
+ 0002:00000178       ??_C@_0BL@MNAEHLEJ@mHiiHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014178     MiscSubclass:MiscSubclassDriverEntryPoint.obj
+ 0002:00000194       ??_C@_0DF@DLIJHCMA@Misc?5smbios?5store?5error?4?5?5Index?$DN@ 00014194     MiscSubclass:MiscSubclassDriverEntryPoint.obj
+ 0002:000001cc       ??_C@_1BK@GGGENMOA@?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAL?$AAa?$AAn?$AAg?$AA?$AA@ 000141cc     MiscSubclass:MiscNumberOfInstallableLanguagesFunction.obj
+ 0002:000001e6       ??_C@_00CNPNBAHC@?$AA@     000141e6     MiscSubclass:MiscNumberOfInstallableLanguagesFunction.obj
+ 0002:000001e8       ??_C@_0BF@MALOOLKL@?$CKEndMatchLang?5?$DN?$DN?5?8?$DL?8?$AA@ 000141e8     MiscSubclass:MiscNumberOfInstallableLanguagesFunction.obj
+ 0002:00000200       ??_C@_0FD@GHLMBMLM@c?3?2edk2?2Nt32Pkg?2MiscSubClassPlat@ 00014200     MiscSubclass:MiscNumberOfInstallableLanguagesFunction.obj
+ 0002:00000254       ??_C@_0BJ@NJEGJHFI@LangCode?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014254     MiscSubclass:MiscNumberOfInstallableLanguagesFunction.obj
+ 0002:00000270       ??_C@_0BK@FANDPBIH@?$CKLangCode?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014270     MiscSubclass:MiscNumberOfInstallableLanguagesFunction.obj
+ 0002:0000028c       ??_C@_0BF@KEEBGAAP@Lang?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001428c     MiscSubclass:MiscNumberOfInstallableLanguagesFunction.obj
+ 0002:000002a4       ??_C@_0CN@HFOFBDHA@c?3?2edk2?2MdePkg?2Library?2DxePcdLib@ 000142a4     DxePcdLib:DxePcdLib.obj
+ 0002:000002d4       ??_C@_0BF@OOKDELHM@mPcd?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000142d4     DxePcdLib:DxePcdLib.obj
+ 0002:000002ec       ??_C@_0BF@PEDOPNMP@Guid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000142ec     DxePcdLib:DxePcdLib.obj
+ 0002:00000304       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014304     DxePcdLib:DxePcdLib.obj
+ 0002:0000031c       ??_C@_0BM@NLNKOJGD@Destination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001431c     BaseLib:String.obj
+ 0002:00000338       ??_C@_0CI@BEFOLLLE@c?3?2edk2?2MdePkg?2Library?2BaseLib?2S@ 00014338     BaseLib:String.obj
+ 0002:00000360       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014360     BaseLib:String.obj
+ 0002:00000378       ??_C@_0CD@BDCLIGHD@?$CI?$CIUINTN?$CJ?5String?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 00014378     BaseLib:String.obj
+ 0002:0000039c       ??_C@_0DK@EOJCOAME@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 0001439c     BaseLib:String.obj
+ 0002:000003d8       ??_C@_0BG@JJELHOCA@StrSize?5?$CISource?$CJ?5?$CB?$DN?50?$AA@ 000143d8     BaseLib:String.obj
+ 0002:000003f0       ??_C@_0DN@HIFCOCOI@?$CIUINTN?$CJ?5?$CIDestination?5?9?5?$CICHAR8?5?$CK?$CJ@ 000143f0     BaseLib:String.obj
+ 0002:00000430       ??_C@_0DL@LACPINOG@?$CIUINTN?$CJ?5?$CI?$CICHAR8?5?$CK?$CJ?5Source?5?9?5Dest@ 00014430     BaseLib:String.obj
+ 0002:0000046c       ??_C@_0BA@MFHLDCJH@?$CKSource?5?$DM?50x100?$AA@ 0001446c     BaseLib:String.obj
+ 0002:0000047c       ??_C@_0CA@FFIBMAAF@AsciiStrSize?5?$CIReturnValue?$CJ?5?$CB?$DN?50?$AA@ 0001447c     BaseLib:String.obj
+ 0002:0000049c       ??_C@_0DF@CDKFFDDI@?$CIUINTN?$CJ?$CIDestination?5?9?5Source?$CJ?5?$DO?5@ 0001449c     BaseLib:String.obj
+ 0002:000004d4       ??_C@_0DF@CCGJKFCO@?$CIUINTN?$CJ?$CISource?5?9?5Destination?$CJ?5?$DO?5@ 000144d4     BaseLib:String.obj
+ 0002:0000050c       ??_C@_0DJ@JJHGIFMP@Length?5?$DM?$DN?5_gPcd_FixedAtBuild_Pcd@ 0001450c     BaseLib:String.obj
+ 0002:00000548       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 00014548     BaseLib:String.obj
+ 0002:00000580       ??_C@_0BL@IKFBNFIL@AsciiStrSize?5?$CIFirstString?$CJ?$AA@ 00014580     BaseLib:String.obj
+ 0002:0000059c       ??_C@_0BM@EDNOKLLE@AsciiStrSize?5?$CISecondString?$CJ?$AA@ 0001459c     BaseLib:String.obj
+ 0002:000005b8       ??_C@_0CM@GBAFEFEA@c?3?2edk2?2MdePkg?2Library?2BaseLib?2S@ 000145b8     BaseLib:SafeString.obj
+ 0002:000005e4       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ?$AA@ 000145e4     BaseLib:SafeString.obj
+ 0002:00000604       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ?$AA@ 00014604     BaseLib:SafeString.obj
+ 0002:00000620       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ?$AA@ 00014620     BaseLib:SafeString.obj
+ 0002:00000638       ??_C@_0BJ@MBBOBCLN@?$CIString?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ?$AA@ 00014638     BaseLib:SafeString.obj
+ 0002:00000654       ??_C@_0BH@JPMEDPAI@?$CIData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ?$AA@ 00014654     BaseLib:SafeString.obj
+ 0002:00000670       ??_C@_0IC@CFBPEAPC@?$CIStrnLenS?5?$CIString?0?5?$CI_gPcd_FixedA@ 00014670     BaseLib:SafeString.obj
+ 0002:000006f8       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOver@ 000146f8     BaseLib:SafeString.obj
+ 0002:00000754       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014754     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000770       ??_C@_0EH@EMGPELNE@c?3?2edk2?2MdeModulePkg?2Library?2Pei@ 00014770     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000007b8       ??_C@_0CI@HIINONDG@?$CICHAR8?5?$CK?$CJBaseListMarker?5?$DM?$DN?5Forma@ 000147b8     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000007e0       ??_C@_01OHGJGJJP@?$FL?$AA@ 000147e0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000007e4       ??_C@_02PBFOLPKM@?$FN?5?$AA@ 000147e4     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000007e8       ??_C@_0DI@PHOMHDKH@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 000147e8     BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0002:00000820       ??_C@_0DM@DBGKHDAI@c?3?2edk2?2MdePkg?2Library?2BaseMemor@ 00014820     BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0002:0000085c       ??_C@_0DD@DCDOHCDJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 0001485c     BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0002:00000890       ??_C@_0DM@IFMIBCMP@c?3?2edk2?2MdePkg?2Library?2BaseMemor@ 00014890     BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0002:000008cc       ??_C@_0CL@OBMFBPED@Length?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIUINTN?$CJB@ 000148cc     BaseMemoryLibOptDxe:ZeroMemWrapper.obj
+ 0002:000008f8       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000148f8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000918       ??_C@_0EL@ODFJBOBF@c?3?2edk2?2MdePkg?2Library?2UefiBootS@ 00014918     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000964       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014964     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000978       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014978     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000990       ??_C@_0EF@NBCCMJKB@c?3?2edk2?2MdePkg?2Library?2UefiMemor@ 00014990     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:000009d8       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000149d8     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:000009f0       ??_C@_0FB@NIMBGODD@c?3?2edk2?2MdePkg?2Library?2UefiRunti@ 000149f0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000a48       ??_C@_0EP@BCAOHHL@c?3?2edk2?2MdePkg?2Library?2UefiDevic@ 00014a48     UefiDevicePathLibDevicePathProtocol:UefiDevicePathLib.obj
+ 0002:00000a98       ??_C@_0DC@CNNBPJA@mDevicePathLibDevicePathUtilitie@ 00014a98     UefiDevicePathLibDevicePathProtocol:UefiDevicePathLib.obj
+ 0002:00000acc       ??_C@_0CJ@PFEGNAHL@c?3?2edk2?2MdePkg?2Library?2UefiLib?2U@ 00014acc     UefiLib:UefiLib.obj
+ 0002:00000af8       ??_C@_0EG@GOBFPEEP@Name?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?5?$CG?$CG?5Guid?5?$CB?$DN?5@ 00014af8     UefiLib:UefiLib.obj
+ 0002:00000b40       ??_C@_0BH@FMEOEIBC@?$CKValue?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014b40     UefiLib:UefiLib.obj
+ 0002:00000b58       ??_C@_0CD@OLFKAJF@SupportedLanguages?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?5@ 00014b58     UefiLib:UefiLib.obj
+ 0002:00000b7c       ??_C@_0CK@GGFNJPAK@c?3?2edk2?2MdePkg?2Library?2DxeHobLib@ 00014b7c     DxeHobLib:HobLib.obj
+ 0002:00000ba8       ??_C@_0BJ@OBFMLLDO@mHobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014ba8     DxeHobLib:HobLib.obj
+ 0002:00000bc4       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014bc4     DxeHobLib:HobLib.obj
+ 0002:00000be0       ??_C@_1BC@DPOIABCP@?$AAE?$AAF?$AAI?$AAD?$AAe?$AAb?$AAu?$AAg?$AA?$AA@ 00014be0     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0002:00000bf8       ??_C@_0EF@LIFNJAGA@c?3?2edk2?2MdeModulePkg?2Library?2Uef@ 00014bf8     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0002:00000c40       ??_C@_0DB@CPEBINLM@c?3?2edk2?2MdeModulePkg?2Library?2Uef@ 00014c40     UefiHiiLib:HiiLib.obj
+ 0002:00000c74       ??_C@_0BH@OOIJJHNK@Handle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014c74     UefiHiiLib:HiiLib.obj
+ 0002:00000c8c       ??_C@_0CP@EPIFHCKP@Status?5?$CB?$DN?5?$CI?$CIRETURN_STATUS?$CJ?$CI0x800@ 00014c8c     UefiHiiLib:HiiLib.obj
+ 0002:00000cbc       ??_C@_0BP@JFMDNGDC@HiiPackageList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014cbc     UefiHiiLib:HiiLib.obj
+ 0002:00000cdc       ??_C@_0CA@OEKIMLLB@PackageListGuid?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014cdc     UefiHiiLib:HiiLib.obj
+ 0002:00000cfc       ??_C@_0BK@KLJHMMPJ@HiiHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00014cfc     UefiHiiLib:HiiLib.obj
+ 0002:00000d18       _mEndOfPakageList          00014d18     UefiHiiLib:HiiLib.obj
+ 0002:00000d1c       ??_C@_0DE@IAJEMHJO@c?3?2edk2?2MdeModulePkg?2Library?2Uef@ 00014d1c     UefiHiiLib:HiiString.obj
+ 0002:00000d50       ??_C@_06PLDEFKP@x?9UEFI?$AA@ 00014d50     UefiHiiLib:HiiString.obj
+ 0002:00000d58       ??_C@_0O@EMMLPDMJ@StringId?5?$CB?$DN?50?$AA@ 00014d58     UefiHiiLib:HiiString.obj
+ 0002:00000d68       ??_C@_0DG@PGDOLEKG@c?3?2edk2?2MdeModulePkg?2Library?2Uef@ 00014d68     UefiHiiLib:HiiLanguage.obj
+ 0002:00000da0       ??_C@_0EK@NEAGPEKB@c?3?2edk2?2MdeModulePkg?2Library?2Dxe@ 00014da0     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000dec       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00014dec     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000e2c       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00014e2c     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000e6c       ??_C@_0DI@MIEIGAOH@Status?5code?5extended?5data?5is?5too@ 00014e6c     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000ea4       ??_C@_0CL@COEFNOFM@c?3?2edk2?2MdePkg?2Library?2BaseLib?2U@ 00014ea4     BaseLib:Unaligned.obj
+ 0003:00000000       _gEfiHiiFontProtocolGuid   00015000     MiscSubclass:AutoGen.obj
+ 0003:00000010       _gEfiDebugMaskProtocolGuid 00015010     MiscSubclass:AutoGen.obj
+ 0003:00000020       _gEfiHiiDatabaseProtocolGuid 00015020     MiscSubclass:AutoGen.obj
+ 0003:00000030       _gEfiSmbiosProtocolGuid    00015030     MiscSubclass:AutoGen.obj
+ 0003:00000040       _gEfiHiiConfigRoutingProtocolGuid 00015040     MiscSubclass:AutoGen.obj
+ 0003:00000050       _gEfiHobListGuid           00015050     MiscSubclass:AutoGen.obj
+ 0003:00000060       _gEfiHiiImageProtocolGuid  00015060     MiscSubclass:AutoGen.obj
+ 0003:00000070       _gEfiDevicePathUtilitiesProtocolGuid 00015070     MiscSubclass:AutoGen.obj
+ 0003:00000080       _gEfiHiiStringProtocolGuid 00015080     MiscSubclass:AutoGen.obj
+ 0003:00000090       _gEfiGenericVariableGuid   00015090     MiscSubclass:AutoGen.obj
+ 0003:000000a0       _gEfiCallerIdGuid          000150a0     MiscSubclass:AutoGen.obj
+ 0003:000000b0       _MiscSubclassStrings       000150b0     MiscSubclass:AutoGen.obj
+ 0003:00000680       _gEfiStatusCodeDataTypeDebugGuid 00015680     MiscSubclass:AutoGen.obj
+ 0003:00000690       _gEfiStatusCodeSpecificDataGuid 00015690     MiscSubclass:AutoGen.obj
+ 0003:000006a0       _gEfiGlobalVariableGuid    000156a0     MiscSubclass:AutoGen.obj
+ 0003:000006b0       _gEfiStatusCodeRuntimeProtocolGuid 000156b0     MiscSubclass:AutoGen.obj
+ 0003:000006c0       _gPcdProtocolGuid          000156c0     MiscSubclass:AutoGen.obj
+ 0003:000006d0       _mMiscSubclassDataTable    000156d0     MiscSubclass:MiscSubclassDriverDataTable.obj
+ 0003:00000760       _MiscPortCom2Data          00015760     MiscSubclass:MiscPortInternalConnectorDesignatorData.obj
+ 0003:00000794       _MiscPortCom1Data          00015794     MiscSubclass:MiscPortInternalConnectorDesignatorData.obj
+ 0003:000007c8       _MiscPortFloppyData        000157c8     MiscSubclass:MiscPortInternalConnectorDesignatorData.obj
+ 0003:000007fc       _MiscPortExtensionPowerData 000157fc     MiscSubclass:MiscPortInternalConnectorDesignatorData.obj
+ 0003:00000830       _MiscPortKeyboardData      00015830     MiscSubclass:MiscPortInternalConnectorDesignatorData.obj
+ 0003:00000864       _MiscPortInternalConnectorDesignatorData 00015864     MiscSubclass:MiscPortInternalConnectorDesignatorData.obj
+ 0003:00000898       _MiscPortMouseData         00015898     MiscSubclass:MiscPortInternalConnectorDesignatorData.obj
+ 0003:000008cc       _MiscBiosVendorData        000158cc     MiscSubclass:MiscBiosVendorData.obj
+ 0003:000008f4       _NumberOfInstallableLanguagesData 000158f4     MiscSubclass:MiscNumberOfInstallableLanguagesData.obj
+ 0003:000008fc       _OemStringData             000158fc     MiscSubclass:MiscOemStringData.obj
+ 0003:00000900       _SystemLanguageStringData  00015900     MiscSubclass:MiscSystemLanguageStringData.obj
+ 0003:00000908       _MiscChassisManufacturerData 00015908     MiscSubclass:MiscChassisManufacturerData.obj
+ 0003:00000960       _MiscBaseBoardManufacturerData 00015960     MiscSubclass:MiscBaseBoardManufacturerData.obj
+ 0003:000009a0       _SystemOptionStringData    000159a0     MiscSubclass:MiscSystemOptionStringData.obj
+ 0003:000009a4       _MiscSystemSlotDesignationData 000159a4     MiscSubclass:MiscSystemSlotDesignationData.obj
+ 0003:000009c0       _MiscSystemManufacturerData 000159c0     MiscSubclass:MiscSystemManufacturerData.obj
+ 0003:000009e0       _mDebugMaskProtocol        000159e0     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:000009f0       _BootInformationStatusData 000159f0     MiscSubclass:MiscBootInformationData.obj
+ 0003:00000a00       _MiscResetCapabilitiesData 00015a00     MiscSubclass:MiscResetCapabilitiesData.obj
+ 0003:00000a0c       _mPcd                      00015a0c     DxePcdLib:DxePcdLib.obj
+ 0003:00000a10       _gST                       00015a10     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000a14       _gBS                       00015a14     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000a18       _gImageHandle              00015a18     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:00000a1c       _gRT                       00015a1c     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0003:00000a20       _mDevicePathLibDevicePathUtilities 00015a20     UefiDevicePathLibDevicePathProtocol:UefiDevicePathLib.obj
+ 0003:00000a24       _mHobList                  00015a24     DxeHobLib:HobLib.obj
+ 0003:00000a28       _mDebugPrintErrorLevel     00015a28     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:00000a2c       _mGlobalErrorLevelInitialized 00015a2c     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:00000a30       _mSystemTable              00015a30     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:00000a34       _gHiiImage                 00015a34     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0003:00000a38       _gHiiFont                  00015a38     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0003:00000a3c       _gHiiString                00015a3c     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0003:00000a40       _gHiiDatabase              00015a40     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0003:00000a44       _gHiiConfigRouting         00015a44     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0003:00000a48       _mReportStatusCodeLibStatusCodeProtocol 00015a48     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0003:00000a4c       _mHiiHandle                00015a4c     <common>
+
+ entry point at        0001:0000011d
+
+ Static symbols
+
+ 0001:0000001a       _InternalMemCopyMem.0      0001101a     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:0000002c       _InternalMemCopyMem.1      0001102c     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:0000003e       _InternalMemCopyMem.2      0001103e     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:0000005b       @CopyBackward              0001105b     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:00000062       @CopyBytes                 00011062     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:000000f1       _InternalMemSetMem64.0     000110f1     BaseMemoryLibOptDxe:SetMem64.obj
+ 0004:00000000       .edata                     00016000     MiscSubclass.exp
+ 0004:00000028       rgpv                       00016028     MiscSubclass.exp
+ 0004:0000002c       rgszName                   0001602c     MiscSubclass.exp
+ 0004:00000030       rgwOrd                     00016030     MiscSubclass.exp
+ 0004:00000032       szName                     00016032     MiscSubclass.exp
+ 0004:00000043       $N00001                    00016043     MiscSubclass.exp

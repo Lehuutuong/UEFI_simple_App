@@ -1,0 +1,4 @@
+gCommandLineDefines: {'ARCH': 'IA32'}
+BuildOptionPcd: None
+Active Platform: c:\edk2\Nt32Pkg\Nt32Pkg.dsc
+Flash Image Definition: c:\edk2\Nt32Pkg\Nt32Pkg.fdf

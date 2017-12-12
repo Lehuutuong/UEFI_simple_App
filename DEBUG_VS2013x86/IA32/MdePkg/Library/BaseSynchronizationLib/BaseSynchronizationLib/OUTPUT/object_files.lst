@@ -1,0 +1,7 @@
+c:/edk2/Build/NT32IA32/DEBUG_VS2013x86/IA32/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/Ia32/InternalGetSpinLockProperties.obj
+c:/edk2/Build/NT32IA32/DEBUG_VS2013x86/IA32/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/Ia32/InterlockedCompareExchange64.obj
+c:/edk2/Build/NT32IA32/DEBUG_VS2013x86/IA32/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/Ia32/InterlockedCompareExchange32.obj
+c:/edk2/Build/NT32IA32/DEBUG_VS2013x86/IA32/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/Ia32/InterlockedCompareExchange16.obj
+c:/edk2/Build/NT32IA32/DEBUG_VS2013x86/IA32/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/Ia32/InterlockedDecrement.obj
+c:/edk2/Build/NT32IA32/DEBUG_VS2013x86/IA32/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/Ia32/InterlockedIncrement.obj
+c:/edk2/Build/NT32IA32/DEBUG_VS2013x86/IA32/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/SynchronizationMsc.obj

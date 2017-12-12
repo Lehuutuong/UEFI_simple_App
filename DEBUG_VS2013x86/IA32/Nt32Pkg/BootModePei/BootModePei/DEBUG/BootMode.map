@@ -1,0 +1,178 @@
+ BootMode
+
+ Timestamp is 5a2f2dc9 (Tue Dec 12 08:15:53 2017)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000cfH .text                   CODE
+ 0001:000000cf 00001743H .text$mn                CODE
+ 0002:00000000 00000ca0H .rdata                  DATA
+ 0002:00000ca0 0000008cH .rdata$debug            DATA
+ 0003:00000000 0000005cH .data                   DATA
+ 0003:0000005c 00000010H .bss                    DATA
+ 0004:00000000 00000050H .edata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0001:00000000       _InternalMemCopyMem        00011000     BaseMemoryLibOptPei:CopyMem.obj
+ 0001:00000040       _InternalMemSetMem         00011040     BaseMemoryLibOptPei:SetMem.obj
+ 0001:00000070       _InternalMemZeroMem        00011070     BaseMemoryLibOptPei:ZeroMem.obj
+ 0001:00000090       _InternalMemSetMem32       00011090     BaseMemoryLibOptPei:SetMem32.obj
+ 0001:000000b0       _InternalMemSetMem64       000110b0     BaseMemoryLibOptPei:SetMem64.obj
+ 0001:000000cf       __ModuleEntryPoint         000110cf f   PeimEntryPoint:PeimEntryPoint.obj
+ 0001:000000de       _InitializeBootMode        000110de f   BootMode:BootModePei.obj
+ 0001:00000159       _DebugPrint                00011159 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000002c7       _DebugAssert               000112c7 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000003d7       _GetPeiServicesTablePointer 000113d7 f   PeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0001:000003f9       _InternalSafeStringIsOverlap 000113f9 f   BaseLib:SafeString.obj
+ 0001:0000041f       _StrnLenS                  0001141f f   BaseLib:SafeString.obj
+ 0001:00000464       _AsciiStrnLenS             00011464 f   BaseLib:SafeString.obj
+ 0001:0000048b       _AsciiStrCpyS              0001148b f   BaseLib:SafeString.obj
+ 0001:0000054c       _AsciiStrLen               0001154c f   BaseLib:String.obj
+ 0001:00000597       _CopyMem                   00011597 f   BaseMemoryLibOptPei:CopyMemWrapper.obj
+ 0001:000005f8       _CopyGuid                  000115f8 f   BaseMemoryLibOptPei:MemLibGuid.obj
+ 0001:00000628       _CompareGuid               00011628 f   BaseMemoryLibOptPei:MemLibGuid.obj
+ 0001:00000684       _InternalReportStatusCode  00011684 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:000006ee       _ReportStatusCodeExtractAssertInfo 000116ee f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:000007b2       _ReportStatusCodeExtractDebugInfo 000117b2 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00000847       _ReportStatusCodeEx        00011847 f   PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00000907       _OemHookStatusCodeInitialize 00011907 f   PeiNt32OemHookStatusCodeLib:Nt32OemHookStatusCodeLib.obj
+ 0001:0000096c       _OemHookStatusCodeReport   0001196c f   PeiNt32OemHookStatusCodeLib:Nt32OemHookStatusCodeLib.obj
+ 0001:00000b1c       _ReadUnaligned16           00011b1c f   BaseLib:Unaligned.obj
+ 0001:00000b3b       _ReadUnaligned64           00011b3b f   BaseLib:Unaligned.obj
+ 0001:00000b5e       _WriteUnaligned64          00011b5e f   BaseLib:Unaligned.obj
+ 0001:00000b89       _AsciiSPrint               00011b89 f   BasePrintLib:PrintLib.obj
+ 0001:00000ba7       _BasePrintLibFillBuffer    00011ba7 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000bdb       _BasePrintLibValueToString 00011bdb f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000c40       _BasePrintLibSPrintMarker  00011c40 f   BasePrintLib:PrintLibInternal.obj
+ 0001:000017f3       _BasePrintLibSPrint        000127f3 f   BasePrintLib:PrintLibInternal.obj
+ 0002:00000038       ??_C@_08JJGGIGKP@BootMode?$AA@ 00013038     BootMode:AutoGen.obj
+ 0002:00000044       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ?6@ 00013044     BootMode:AutoGen.obj
+ 0002:00000068       ??_C@_0BE@DCHLEIGN@?$CBEFI_ERROR?5?$CIStatus?$CJ?$AA@ 00013068     BootMode:AutoGen.obj
+ 0002:0000007c       ??_C@_0BM@HFKFJKIN@NT32?5Boot?5Mode?5PEIM?5Loaded?6?$AA@ 0001307c     BootMode:BootModePei.obj
+ 0002:00000098       ??_C@_0CK@EJEOLKBP@c?3?2edk2?2Nt32Pkg?2BootModePei?2Boot@ 00013098     BootMode:BootModePei.obj
+ 0002:000000c4       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000130c4     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000000e0       ??_C@_0EH@EMGPELNE@c?3?2edk2?2MdeModulePkg?2Library?2Pei@ 000130e0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000128       ??_C@_0CI@HIINONDG@?$CICHAR8?5?$CK?$CJBaseListMarker?5?$DM?$DN?5Forma@ 00013128     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000150       ??_C@_01OHGJGJJP@?$FL?$AA@ 00013150     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000154       ??_C@_02PBFOLPKM@?$FN?5?$AA@ 00013154     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000158       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00013158     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000170       ??_C@_0EM@LDAGHANC@c?3?2edk2?2MdePkg?2Library?2PeiServic@ 00013170     PeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:000001bc       ??_C@_0BN@OJIBNMOJ@gPeiServices?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000131bc     PeiServicesTablePointerLib:PeiServicesTablePointer.obj
+ 0002:000001dc       ??_C@_0CD@BDCLIGHD@?$CI?$CIUINTN?$CJ?5String?5?$CG?50x00000001?$CJ?5?$DN?$DN@ 000131dc     BaseLib:SafeString.obj
+ 0002:00000200       ??_C@_0CM@GBAFEFEA@c?3?2edk2?2MdePkg?2Library?2BaseLib?2S@ 00013200     BaseLib:SafeString.obj
+ 0002:0000022c       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ?$AA@ 0001322c     BaseLib:SafeString.obj
+ 0002:0000024c       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ?$AA@ 0001324c     BaseLib:SafeString.obj
+ 0002:00000268       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ?$AA@ 00013268     BaseLib:SafeString.obj
+ 0002:00000280       ??_C@_0BJ@CNKJJNE@?$CIBuffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ?$AA@ 00013280     BaseLib:SafeString.obj
+ 0002:000002a0       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOver@ 000132a0     BaseLib:SafeString.obj
+ 0002:000002fc       ??_C@_0CI@BEFOLLLE@c?3?2edk2?2MdePkg?2Library?2BaseLib?2S@ 000132fc     BaseLib:String.obj
+ 0002:00000324       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00013324     BaseLib:String.obj
+ 0002:0000033c       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 0001333c     BaseLib:String.obj
+ 0002:00000374       ??_C@_0N@KGHEHMDL@Divisor?5?$CB?$DN?50?$AA@ 00013374     BaseLib:DivU64x32.obj
+ 0002:00000384       ??_C@_0DI@PHOMHDKH@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 00013384     BaseMemoryLibOptPei:CopyMemWrapper.obj
+ 0002:000003bc       ??_C@_0DM@NOCJNILA@c?3?2edk2?2MdePkg?2Library?2BaseMemor@ 000133bc     BaseMemoryLibOptPei:CopyMemWrapper.obj
+ 0002:000003f8       ??_C@_0DD@DCDOHCDJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 000133f8     BaseMemoryLibOptPei:CopyMemWrapper.obj
+ 0002:00000430       ??_C@_0EK@FLJLAMPC@c?3?2edk2?2MdeModulePkg?2Library?2Pei@ 00013430     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:0000047c       ??_C@_0BF@OBJIPFIC@Data?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001347c     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000494       ??_C@_0BJ@IMECHJFE@Filename?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00013494     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000004b0       ??_C@_0BM@HAIDGOCB@Description?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000134b0     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000004cc       ??_C@_0BL@PEJNABGB@LineNumber?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000134cc     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000004e8       ??_C@_0BL@OBAOKMLN@ErrorLevel?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000134e8     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000504       ??_C@_0BH@GEBIHIDM@Marker?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00013504     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:0000051c       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0001351c     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:0000055c       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 0001355c     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:0000059c       ??_C@_0DI@MIEIGAOH@Status?5code?5extended?5data?5is?5too@ 0001359c     PeiReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000005d8       ??_C@_0EP@CFCGNGBF@c?3?2edk2?2Nt32Pkg?2Library?2PeiNt32O@ 000135d8     PeiNt32OemHookStatusCodeLib:Nt32OemHookStatusCodeLib.obj
+ 0002:00000628       ??_C@_0BJ@NGECPOCK@?6?$ANASSERT?$CB?3?5?$CFa?5?$CI?$CFd?$CJ?3?5?$CFa?6?$AN?$AA@ 00013628     PeiNt32OemHookStatusCodeLib:Nt32OemHookStatusCodeLib.obj
+ 0002:00000644       ??_C@_0BD@OMAHIICL@ERROR?3?5C?$CFx?3V?$CFx?5I?$CFx?$AA@ 00013644     PeiNt32OemHookStatusCodeLib:Nt32OemHookStatusCodeLib.obj
+ 0002:00000658       ??_C@_03GKLDPGLG@?5?$CFg?$AA@ 00013658     PeiNt32OemHookStatusCodeLib:Nt32OemHookStatusCodeLib.obj
+ 0002:0000065c       ??_C@_03GPDAHCCA@?5?$CFp?$AA@ 0001365c     PeiNt32OemHookStatusCodeLib:Nt32OemHookStatusCodeLib.obj
+ 0002:00000660       ??_C@_02LIIHNNHG@?6?$AN?$AA@ 00013660     PeiNt32OemHookStatusCodeLib:Nt32OemHookStatusCodeLib.obj
+ 0002:00000664       ??_C@_0BJ@KDCPJMDH@PROGRESS?5CODE?3?5V?$CFx?5I?$CFx?6?$AN?$AA@ 00013664     PeiNt32OemHookStatusCodeLib:Nt32OemHookStatusCodeLib.obj
+ 0002:00000680       ??_C@_0BJ@KMGICPHL@Undefined?3?5C?$CFx?3V?$CFx?5I?$CFx?6?$AN?$AA@ 00013680     PeiNt32OemHookStatusCodeLib:Nt32OemHookStatusCodeLib.obj
+ 0002:0000069c       ??_C@_0CL@COEFNOFM@c?3?2edk2?2MdePkg?2Library?2BaseLib?2U@ 0001369c     BaseLib:Unaligned.obj
+ 0002:000006c8       ??_C@_07PBILKAFL@Success?$AA@ 000136c8     BasePrintLib:PrintLibInternal.obj
+ 0002:000006d0       ??_C@_0BG@CFJMNNJK@Warning?5Unknown?5Glyph?$AA@ 000136d0     BasePrintLib:PrintLibInternal.obj
+ 0002:000006e8       ??_C@_0BH@GKKCJEPJ@Warning?5Delete?5Failure?$AA@ 000136e8     BasePrintLib:PrintLibInternal.obj
+ 0002:00000700       ??_C@_0BG@ECIJMOED@Warning?5Write?5Failure?$AA@ 00013700     BasePrintLib:PrintLibInternal.obj
+ 0002:00000718       ??_C@_0BJ@ODIPDGHB@Warning?5Buffer?5Too?5Small?$AA@ 00013718     BasePrintLib:PrintLibInternal.obj
+ 0002:00000734       ??_C@_0BD@IFJNJCCO@Warning?5Stale?5Data?$AA@ 00013734     BasePrintLib:PrintLibInternal.obj
+ 0002:00000748       ??_C@_0L@PLPBEPPC@Load?5Error?$AA@ 00013748     BasePrintLib:PrintLibInternal.obj
+ 0002:00000754       ??_C@_0BC@HOFHKGJN@Invalid?5Parameter?$AA@ 00013754     BasePrintLib:PrintLibInternal.obj
+ 0002:00000768       ??_C@_0M@BEECMOIL@Unsupported?$AA@ 00013768     BasePrintLib:PrintLibInternal.obj
+ 0002:00000774       ??_C@_0BA@FLNMPMCF@Bad?5Buffer?5Size?$AA@ 00013774     BasePrintLib:PrintLibInternal.obj
+ 0002:00000784       ??_C@_0BB@EGELJFOB@Buffer?5Too?5Small?$AA@ 00013784     BasePrintLib:PrintLibInternal.obj
+ 0002:00000798       ??_C@_09NKFGCIPN@Not?5Ready?$AA@ 00013798     BasePrintLib:PrintLibInternal.obj
+ 0002:000007a4       ??_C@_0N@HHEABDHO@Device?5Error?$AA@ 000137a4     BasePrintLib:PrintLibInternal.obj
+ 0002:000007b4       ??_C@_0BA@LNEDDFNB@Write?5Protected?$AA@ 000137b4     BasePrintLib:PrintLibInternal.obj
+ 0002:000007c4       ??_C@_0BB@GOILNEAA@Out?5of?5Resources?$AA@ 000137c4     BasePrintLib:PrintLibInternal.obj
+ 0002:000007d8       ??_C@_0P@EIOJGIF@Volume?5Corrupt?$AA@ 000137d8     BasePrintLib:PrintLibInternal.obj
+ 0002:000007e8       ??_C@_0M@HDLEPOFA@Volume?5Full?$AA@ 000137e8     BasePrintLib:PrintLibInternal.obj
+ 0002:000007f4       ??_C@_08KEGAJDNN@No?5Media?$AA@ 000137f4     BasePrintLib:PrintLibInternal.obj
+ 0002:00000800       ??_C@_0O@JNCJKCCD@Media?5changed?$AA@ 00013800     BasePrintLib:PrintLibInternal.obj
+ 0002:00000810       ??_C@_09CFCBFJND@Not?5Found?$AA@ 00013810     BasePrintLib:PrintLibInternal.obj
+ 0002:0000081c       ??_C@_0O@NFHOBIDO@Access?5Denied?$AA@ 0001381c     BasePrintLib:PrintLibInternal.obj
+ 0002:0000082c       ??_C@_0M@ENKCBFEP@No?5Response?$AA@ 0001382c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000838       ??_C@_0L@IFPBNFC@No?5mapping?$AA@ 00013838     BasePrintLib:PrintLibInternal.obj
+ 0002:00000844       ??_C@_08PAFJCNGP@Time?5out?$AA@ 00013844     BasePrintLib:PrintLibInternal.obj
+ 0002:00000850       ??_C@_0M@DCJFAFHJ@Not?5started?$AA@ 00013850     BasePrintLib:PrintLibInternal.obj
+ 0002:0000085c       ??_C@_0BA@IGIBFFPH@Already?5started?$AA@ 0001385c     BasePrintLib:PrintLibInternal.obj
+ 0002:0000086c       ??_C@_07LCKDCBKK@Aborted?$AA@ 0001386c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000874       ??_C@_0L@LKIFCMNO@ICMP?5Error?$AA@ 00013874     BasePrintLib:PrintLibInternal.obj
+ 0002:00000880       ??_C@_0L@DJKNJKHM@TFTP?5Error?$AA@ 00013880     BasePrintLib:PrintLibInternal.obj
+ 0002:0000088c       ??_C@_0P@NCJHBCLM@Protocol?5Error?$AA@ 0001388c     BasePrintLib:PrintLibInternal.obj
+ 0002:0000089c       ??_C@_0BF@EHOBGFMI@Incompatible?5Version?$AA@ 0001389c     BasePrintLib:PrintLibInternal.obj
+ 0002:000008b4       ??_C@_0BD@KHMPCIOG@Security?5Violation?$AA@ 000138b4     BasePrintLib:PrintLibInternal.obj
+ 0002:000008c8       ??_C@_09BOMAGJEG@CRC?5Error?$AA@ 000138c8     BasePrintLib:PrintLibInternal.obj
+ 0002:000008d4       ??_C@_0N@JEJDHPO@End?5of?5Media?$AA@ 000138d4     BasePrintLib:PrintLibInternal.obj
+ 0002:000008e4       ??_C@_0O@NMJOLAMF@Reserved?5?$CI29?$CJ?$AA@ 000138e4     BasePrintLib:PrintLibInternal.obj
+ 0002:000008f4       ??_C@_0O@GLPDOMCP@Reserved?5?$CI30?$CJ?$AA@ 000138f4     BasePrintLib:PrintLibInternal.obj
+ 0002:00000904       ??_C@_0M@FKGOBENP@End?5of?5File?$AA@ 00013904     BasePrintLib:PrintLibInternal.obj
+ 0002:00000910       ??_C@_0BB@KFJAMCOC@Invalid?5Language?$AA@ 00013910     BasePrintLib:PrintLibInternal.obj
+ 0002:00000924       ??_C@_0BB@MFGDFIJM@Compromised?5Data?$AA@ 00013924     BasePrintLib:PrintLibInternal.obj
+ 0002:00000938       ??_C@_0DH@DJIHJFON@c?3?2edk2?2MdePkg?2Library?2BasePrint@ 00013938     BasePrintLib:PrintLibInternal.obj
+ 0002:00000970       ??_C@_0EB@HDGIDCIO@?$CIBufferSize?5?$DM?$DN?5?$CI_gPcd_FixedAtBui@ 00013970     BasePrintLib:PrintLibInternal.obj
+ 0002:000009b4       ??_C@_0BJ@PPAKKDJG@?$CIFormat?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ?$AA@ 000139b4     BasePrintLib:PrintLibInternal.obj
+ 0002:000009d0       ??_C@_0ED@LPDDCECB@?$CIBufferSize?5?$DM?$DN?5?$CI_gPcd_FixedAtBui@ 000139d0     BasePrintLib:PrintLibInternal.obj
+ 0002:00000a18       ??_C@_0IM@BFJJFLGB@?$CIStrnLenS?5?$CI?$CICHAR16?5?$CK?$CJFormat?0?5?$CI_g@ 00013a18     BasePrintLib:PrintLibInternal.obj
+ 0002:00000aa8       ??_C@_0ID@PLGJGION@?$CIAsciiStrnLenS?5?$CIFormat?0?5?$CI_gPcd_F@ 00013aa8     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b2c       ??_C@_0O@MLOLIMFM@?$DMnull?5string?$DO?$AA@ 00013b2c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b3c       ??_C@_0M@BJJDNPHK@?$DMnull?5guid?$DO?$AA@ 00013b3c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b48       ??_C@_0DB@PMLHLBMO@?$CF08x?9?$CF04x?9?$CF04x?9?$CF02x?$CF02x?9?$CF02x?$CF02x@ 00013b48     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b7c       ??_C@_0M@LHGBCIKM@?$DMnull?5time?$DO?$AA@ 00013b7c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000b88       ??_C@_0BK@FCPKCIDD@?$CF02d?1?$CF02d?1?$CF04d?5?5?$CF02d?3?$CF02d?$AA@ 00013b88     BasePrintLib:PrintLibInternal.obj
+ 0002:00000ba4       ??_C@_04JIMNDDED@?$CF08X?$AA@ 00013ba4     BasePrintLib:PrintLibInternal.obj
+ 0002:00000bac       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 00013bac     BasePrintLib:PrintLibInternal.obj
+ 0002:00000bb0       ??_C@_01LIIJDEN@?$AN?$AA@  00013bb0     BasePrintLib:PrintLibInternal.obj
+ 0002:00000bc0       _mHexStr                   00013bc0     BasePrintLib:PrintLibInternal.obj
+ 0002:00000bd0       _mStatusString             00013bd0     BasePrintLib:PrintLibInternal.obj
+ 0002:00000c6c       ??_C@_0DE@PLOFBNJA@c?3?2edk2?2MdePkg?2Library?2BaseLib?2D@ 00013c6c     BaseLib:DivU64x32Remainder.obj
+ 0003:00000000       _gEfiPeiMasterBootModePpiGuid 00014000     BootMode:AutoGen.obj
+ 0003:00000010       _gEfiCallerIdGuid          00014010     BootMode:AutoGen.obj
+ 0003:00000020       _gPeiNtThunkPpiGuid        00014020     BootMode:AutoGen.obj
+ 0003:00000030       _gEfiStatusCodeDataTypeDebugGuid 00014030     BootMode:AutoGen.obj
+ 0003:00000040       _gEfiStatusCodeSpecificDataGuid 00014040     BootMode:AutoGen.obj
+ 0003:00000050       _mPpiListBootMode          00014050     BootMode:BootModePei.obj
+ 0003:0000005c       _gNullVaList               0001405c     <common>
+ 0003:00000060       _mStdOut                   00014060     <common>
+ 0003:00000064       _mWinNt                    00014064     <common>
+ 0003:00000068       _gPeiServices              00014068     <common>
+
+ entry point at        0001:000000cf
+
+ Static symbols
+
+ 0001:0000002a       @CopyBytes                 0001102a     BaseMemoryLibOptPei:CopyMem.obj
+ 0001:0000002f       @CopyDone                  0001102f     BaseMemoryLibOptPei:CopyMem.obj
+ 0001:000000c1       _InternalMemSetMem64.0     000110c1     BaseMemoryLibOptPei:SetMem64.obj
+ 0004:00000000       .edata                     00015000     BootMode.exp
+ 0004:00000028       rgpv                       00015028     BootMode.exp
+ 0004:0000002c       rgszName                   0001502c     BootMode.exp
+ 0004:00000030       rgwOrd                     00015030     BootMode.exp
+ 0004:00000032       szName                     00015032     BootMode.exp
+ 0004:0000003f       $N00001                    0001503f     BootMode.exp

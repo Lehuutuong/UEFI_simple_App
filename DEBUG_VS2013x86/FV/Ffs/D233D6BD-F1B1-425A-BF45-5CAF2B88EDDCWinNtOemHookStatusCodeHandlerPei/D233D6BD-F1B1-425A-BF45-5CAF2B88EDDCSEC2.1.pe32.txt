@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_PE32 -o c:\edk2\Build\NT32IA32\DEBUG_VS2013x86\FV\Ffs\D233D6BD-F1B1-425A-BF45-5CAF2B88EDDCWinNtOemHookStatusCodeHandlerPei\D233D6BD-F1B1-425A-BF45-5CAF2B88EDDCSEC2.1.pe32 c:\edk2\Build\NT32IA32\DEBUG_VS2013x86\IA32\Nt32Pkg\WinNtOemHookStatusCodeHandlerPei\WinNtOemHookStatusCodeHandlerPei\OUTPUT\WinNtOemHookStatusCodeHandlerPei.efi

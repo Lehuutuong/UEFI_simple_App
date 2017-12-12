@@ -1,0 +1,144 @@
+ StatusCodeHandlerRuntimeDxe
+
+ Timestamp is 5a2f2e0c (Tue Dec 12 08:17:00 2017)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000ffH .text                   CODE
+ 0001:000000ff 00000d87H .text$mn                CODE
+ 0002:00000000 0000078bH .rdata                  DATA
+ 0002:0000078c 000000d0H .rdata$debug            DATA
+ 0003:00000000 000000c0H .data                   DATA
+ 0003:000000c0 00000048H .bss                    DATA
+ 0004:00000000 00000063H .edata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0001:00000000       _InternalMemCopyMem        00011000     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:00000070       _InternalMemSetMem         00011070     BaseMemoryLibOptDxe:SetMem.obj
+ 0001:000000a0       _InternalMemZeroMem        000110a0     BaseMemoryLibOptDxe:ZeroMem.obj
+ 0001:000000c0       _InternalMemSetMem32       000110c0     BaseMemoryLibOptDxe:SetMem32.obj
+ 0001:000000e0       _InternalMemSetMem64       000110e0     BaseMemoryLibOptDxe:SetMem64.obj
+ 0001:000000ff       __ModuleEntryPoint         000110ff f   UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0001:00000129       _ProcessLibraryConstructorList 00011129 f   StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0001:000002cb       _ProcessLibraryDestructorList 000112cb f   StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0001:00000346       _UnregisterBootTimeHandlers 00011346 f   StatusCodeHandlerRuntimeDxe:StatusCodeHandlerRuntimeDxe.obj
+ 0001:00000347       _VirtualAddressChangeCallBack 00011347 f   StatusCodeHandlerRuntimeDxe:StatusCodeHandlerRuntimeDxe.obj
+ 0001:00000359       _StatusCodeHandlerRuntimeDxeEntry 00011359 f   StatusCodeHandlerRuntimeDxe:StatusCodeHandlerRuntimeDxe.obj
+ 0001:00000412       _CopyGuid                  00011412 f   BaseMemoryLibOptDxe:MemLibGuid.obj
+ 0001:00000442       _CompareGuid               00011442 f   BaseMemoryLibOptDxe:MemLibGuid.obj
+ 0001:000004a1       _DebugPrint                000114a1 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:000005f8       _DebugAssert               000115f8 f   PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0001:00000708       _InternalGetReportStatusCode 00011708 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00000741       _InternalReportStatusCode  00011741 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:00000788       _ReportStatusCodeEx        00011788 f   DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0001:000008dc       _EfiGetSystemConfigurationTable 000118dc f   UefiLib:UefiLib.obj
+ 0001:00000936       _GetHobList                00011936 f   DxeHobLib:HobLib.obj
+ 0001:00000990       _GetNextHob                00011990 f   DxeHobLib:HobLib.obj
+ 0001:000009cd       _GetFirstGuidHob           000119cd f   DxeHobLib:HobLib.obj
+ 0001:00000a07       _GetDebugPrintErrorLevel   00011a07 f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:00000ac5       _GetDebugMask              00011ac5 f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:00000add       _SetDebugMask              00011add f   DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0001:00000ae9       _RuntimeLibExitBootServicesEvent 00011ae9 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:00000af1       _RuntimeLibVirtualNotifyEvent 00011af1 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:00000b0a       _RuntimeDriverLibConstruct 00011b0a f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:00000be9       _RuntimeDriverLibDeconstruct 00011be9 f   UefiRuntimeLib:RuntimeLib.obj
+ 0001:00000c7e       _ReadUnaligned64           00011c7e f   BaseLib:Unaligned.obj
+ 0001:00000ca1       _WriteUnaligned64          00011ca1 f   BaseLib:Unaligned.obj
+ 0001:00000ccc       _InternalSafeStringIsOverlap 00011ccc f   BaseLib:SafeString.obj
+ 0001:00000cf2       _AsciiStrnLenS             00011cf2 f   BaseLib:SafeString.obj
+ 0001:00000d19       _AsciiStrCpyS              00011d19 f   BaseLib:SafeString.obj
+ 0001:00000dda       _AsciiStrLen               00011dda f   BaseLib:String.obj
+ 0001:00000e25       _CopyMem                   00011e25 f   BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0002:00000038       ??_C@_0CB@DMEJJJHA@?6ASSERT_EFI_ERROR?5?$CIStatus?5?$DN?5?$CFr?$CJ?6@ 00012038     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:0000005c       ??_C@_0BE@DCHLEIGN@?$CBEFI_ERROR?5?$CIStatus?$CJ?$AA@ 0001205c     UefiDriverEntryPoint:DriverEntryPoint.obj
+ 0002:00000070       ??_C@_0BM@CNLALIIP@StatusCodeHandlerRuntimeDxe?$AA@ 00012070     StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0002:00000090       ??_C@_0IM@JEOLKMNK@c?3?2edk2?2Build?2NT32IA32?2DEBUG_VS2@ 00012090     StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0002:00000120       ??_C@_0FK@MPBGGMDL@c?3?2edk2?2MdeModulePkg?2Universal?2S@ 00012120     StatusCodeHandlerRuntimeDxe:StatusCodeHandlerRuntimeDxe.obj
+ 0002:0000017c       ??_C@_0BH@LKMBFCBF@Format?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001217c     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000198       ??_C@_0EH@EMGPELNE@c?3?2edk2?2MdeModulePkg?2Library?2Pei@ 00012198     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:000001e0       ??_C@_0CI@HIINONDG@?$CICHAR8?5?$CK?$CJBaseListMarker?5?$DM?$DN?5Forma@ 000121e0     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000208       ??_C@_01OHGJGJJP@?$FL?$AA@ 00012208     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:0000020c       ??_C@_02PBFOLPKM@?$FN?5?$AA@ 0001220c     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000210       ??_C@_0BH@IACGKAP@Buffer?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00012210     PeiDxeDebugLibReportStatusCode:DebugLib.obj
+ 0002:00000228       ??_C@_0EK@NEAGPEKB@c?3?2edk2?2MdeModulePkg?2Library?2Dxe@ 00012228     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:00000274       ??_C@_0DN@HHIHPHHB@?$CB?$CI?$CIExtendedData?5?$DN?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 00012274     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000002b4       ??_C@_0DN@BBBIFINB@?$CB?$CI?$CIExtendedData?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ@ 000122b4     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:000002f4       ??_C@_0DI@MIEIGAOH@Status?5code?5extended?5data?5is?5too@ 000122f4     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0002:0000032c       ??_C@_0BN@COECPDCC@gImageHandle?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001232c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000350       ??_C@_0EL@ODFJBOBF@c?3?2edk2?2MdePkg?2Library?2UefiBootS@ 00012350     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:0000039c       ??_C@_0BE@DGNHAHIL@gST?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001239c     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000003b0       ??_C@_0BE@BDFJLGLN@gBS?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000123b0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000003c8       ??_C@_0EP@BCAOHHL@c?3?2edk2?2MdePkg?2Library?2UefiDevic@ 000123c8     UefiDevicePathLibDevicePathProtocol:UefiDevicePathLib.obj
+ 0002:00000418       ??_C@_0DC@CNNBPJA@mDevicePathLibDevicePathUtilitie@ 00012418     UefiDevicePathLibDevicePathProtocol:UefiDevicePathLib.obj
+ 0002:0000044c       ??_C@_0BE@OBDFIHND@gRT?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 0001244c     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:00000460       ??_C@_0FB@NIMBGODD@c?3?2edk2?2MdePkg?2Library?2UefiRunti@ 00012460     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:000004b4       ??_C@_0CK@GGFNJPAK@c?3?2edk2?2MdePkg?2Library?2DxeHobLib@ 000124b4     DxeHobLib:HobLib.obj
+ 0002:000004e0       ??_C@_0BJ@OBFMLLDO@mHobList?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000124e0     DxeHobLib:HobLib.obj
+ 0002:000004fc       ??_C@_0BJ@NOLLDKJB@HobStart?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 000124fc     DxeHobLib:HobLib.obj
+ 0002:00000518       ??_C@_1BC@DPOIABCP@?$AAE?$AAF?$AAI?$AAD?$AAe?$AAb?$AAu?$AAg?$AA?$AA@ 00012518     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0002:0000052c       ??_C@_0DD@BGKIIDHG@c?3?2edk2?2MdePkg?2Library?2UefiRunti@ 0001252c     UefiRuntimeLib:RuntimeLib.obj
+ 0002:00000560       ??_C@_0CL@COEFNOFM@c?3?2edk2?2MdePkg?2Library?2BaseLib?2U@ 00012560     BaseLib:Unaligned.obj
+ 0002:0000058c       ??_C@_0CM@GBAFEFEA@c?3?2edk2?2MdePkg?2Library?2BaseLib?2S@ 0001258c     BaseLib:SafeString.obj
+ 0002:000005b8       ??_C@_0BO@ECNIOIHG@?$CIDestination?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ?$AA@ 000125b8     BaseLib:SafeString.obj
+ 0002:000005d8       ??_C@_0BJ@EAEEJIP@?$CISource?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$CJ?$AA@ 000125d8     BaseLib:SafeString.obj
+ 0002:000005f4       ??_C@_0BG@EEGIIOKH@?$CIDestMax?5?$DO?5SourceLen?$CJ?$AA@ 000125f4     BaseLib:SafeString.obj
+ 0002:00000610       ??_C@_0FL@CDANCHFO@InternalSafeStringNoAsciiStrOver@ 00012610     BaseLib:SafeString.obj
+ 0002:0000066c       ??_C@_0CI@BEFOLLLE@c?3?2edk2?2MdePkg?2Library?2BaseLib?2S@ 0001266c     BaseLib:String.obj
+ 0002:00000694       ??_C@_0BH@MAAHKCPC@String?5?$CB?$DN?5?$CI?$CIvoid?5?$CK?$CJ?50?$CJ?$AA@ 00012694     BaseLib:String.obj
+ 0002:000006ac       ??_C@_0DI@MDIKFADO@Length?5?$DM?5_gPcd_FixedAtBuild_PcdM@ 000126ac     BaseLib:String.obj
+ 0002:000006e4       ??_C@_0DI@PHOMHDKH@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 000126e4     BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0002:0000071c       ??_C@_0DM@DBGKHDAI@c?3?2edk2?2MdePkg?2Library?2BaseMemor@ 0001271c     BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0002:00000758       ??_C@_0DD@DCDOHCDJ@?$CILength?5?9?51?$CJ?5?$DM?$DN?5?$CI0xFFFFFFFF?5?9?5?$CIU@ 00012758     BaseMemoryLibOptDxe:CopyMemWrapper.obj
+ 0003:00000000       _gEfiEventVirtualAddressChangeGuid 00013000     StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0003:00000010       _gEfiDebugMaskProtocolGuid 00013010     StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0003:00000020       _gEfiHobListGuid           00013020     StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0003:00000030       _gEfiDevicePathUtilitiesProtocolGuid 00013030     StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0003:00000040       _gEfiEventExitBootServicesGuid 00013040     StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0003:00000050       _gEfiGenericVariableGuid   00013050     StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0003:00000060       _gEfiRscHandlerProtocolGuid 00013060     StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0003:00000070       _gEfiCallerIdGuid          00013070     StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0003:00000080       _gEfiStatusCodeDataTypeDebugGuid 00013080     StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0003:00000090       _gEfiStatusCodeSpecificDataGuid 00013090     StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0003:000000a0       _gEfiStatusCodeRuntimeProtocolGuid 000130a0     StatusCodeHandlerRuntimeDxe:AutoGen.obj
+ 0003:000000b0       _mDebugMaskProtocol        000130b0     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:000000c0       _mVirtualAddressChangeEvent 000130c0     StatusCodeHandlerRuntimeDxe:StatusCodeHandlerRuntimeDxe.obj
+ 0003:000000c4       _mRscHandlerProtocol       000130c4     StatusCodeHandlerRuntimeDxe:StatusCodeHandlerRuntimeDxe.obj
+ 0003:000000c8       _mExitBootServicesEvent    000130c8     StatusCodeHandlerRuntimeDxe:StatusCodeHandlerRuntimeDxe.obj
+ 0003:000000cc       _mReportStatusCodeLibStatusCodeProtocol 000130cc     DxeReportStatusCodeLib:ReportStatusCodeLib.obj
+ 0003:000000d0       _gST                       000130d0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000000d4       _gBS                       000130d4     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000000d8       _gImageHandle              000130d8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0003:000000dc       _mDevicePathLibDevicePathUtilities 000130dc     UefiDevicePathLibDevicePathProtocol:UefiDevicePathLib.obj
+ 0003:000000e0       _gRT                       000130e0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0003:000000e4       _mHobList                  000130e4     DxeHobLib:HobLib.obj
+ 0003:000000e8       _mDebugPrintErrorLevel     000130e8     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:000000ec       _mGlobalErrorLevelInitialized 000130ec     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:000000f0       _mSystemTable              000130f0     DxeDebugPrintErrorLevelLib:DxeDebugPrintErrorLevelLib.obj
+ 0003:000000f4       _mEfiAtRuntime             000130f4     UefiRuntimeLib:RuntimeLib.obj
+ 0003:000000f5       _mEfiGoneVirtual           000130f5     UefiRuntimeLib:RuntimeLib.obj
+ 0003:000000f8       _mEfiExitBootServicesEvent 000130f8     <common>
+ 0003:000000fc       _mEfiVirtualNotifyEvent    000130fc     <common>
+ 0003:00000100       _mInternalRT               00013100     <common>
+ 0003:00000104       _mRtMemoryStatusCodeTable  00013104     <common>
+
+ entry point at        0001:000000ff
+
+ Static symbols
+
+ 0001:0000001a       _InternalMemCopyMem.0      0001101a     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:0000002c       _InternalMemCopyMem.1      0001102c     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:0000003e       _InternalMemCopyMem.2      0001103e     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:0000005b       @CopyBackward              0001105b     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:00000062       @CopyBytes                 00011062     BaseMemoryLibOptDxe:CopyMem.obj
+ 0001:000000f1       _InternalMemSetMem64.0     000110f1     BaseMemoryLibOptDxe:SetMem64.obj
+ 0004:00000000       .edata                     00014000     StatusCodeHandlerRuntimeDxe.exp
+ 0004:00000028       rgpv                       00014028     StatusCodeHandlerRuntimeDxe.exp
+ 0004:0000002c       rgszName                   0001402c     StatusCodeHandlerRuntimeDxe.exp
+ 0004:00000030       rgwOrd                     00014030     StatusCodeHandlerRuntimeDxe.exp
+ 0004:00000032       szName                     00014032     StatusCodeHandlerRuntimeDxe.exp
+ 0004:00000052       $N00001                    00014052     StatusCodeHandlerRuntimeDxe.exp
